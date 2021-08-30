@@ -26,7 +26,7 @@ byte stat = 0;
 int data = 0;
 
 void setup() {
-  bluetooth.begin(9600); // start BEL device
+  bluetooth.begin(9600); // start BLE device
   delay(1000); // wait until BLE device starts
   oled.init(0x3C);   // init OLED display
   oled.clear(); 
